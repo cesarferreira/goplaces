@@ -19,7 +19,6 @@ function getListOfDevices() {
 
   if (command === null) {
     Utils.titleError(`Something went wrong while listing the devices`);
-
     process.exit(2)
   }
 
@@ -81,7 +80,7 @@ function showPackageSelection(selectedDevice) {
   inquirer.prompt({
     type: 'autocomplete',
     name: 'package',
-    pageSize: 10,
+    pageSize: 13,
     message: 'What app do you want to open?',
     source: searchPackages
   }).then(packageAnswer => {
@@ -93,7 +92,7 @@ const self = module.exports = {
   init: (input, flags) => {
     devices = getListOfDevices();
     if (devices.length === 0) {
-      Utils.titleError(`No device/emulator connected \n please connect one or more device/emulator and try again`);
+      Utils.titleError(`No device/emulator connected\nplease connect one or more device/emulator and try again`);
       process.exit(2);
     } else if (devices.length === 1) {
       // only single device is connected proceed with package selection
