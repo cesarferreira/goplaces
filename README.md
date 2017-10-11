@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/cesarferreira/goplaces" target="_blank"><img width="200"src="extras/walk.gif"></a></p>
+<p align="center"><a href="https://github.com/cesarferreira/goplaces" target="_blank"><img width="200"src="extras/acrobat.gif"></a></p>
 <h1 align="center">GoPlaces</h1>
 <p align="center"><i>GoPlaces</i> to launch apps on your phone/emulator from the terminal</p>
 <p align="center">
