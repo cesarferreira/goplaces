@@ -16,6 +16,13 @@ function getListOfDevices() {
   const command = shell.exec('adb devices -l', {
     silent: true
   })
+
+  if (command === null) {
+    Utils.titleError(`Something went wrong while listing the devices`);
+
+    process.exit(2)
+  }
+
   const packages = command.stdout.split(`\n`)
     .filter(Boolean)
     .filter(item => item.indexOf('daemon not running') === -1)

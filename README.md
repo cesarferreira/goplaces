@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/cesarferreira/goplaces" target="_blank"><img width="200"src="extras/walk.gif"></a></p>
-<h1 align="center">goplaces</h1>
-<p align="center">Quickly <i>goplaces</i> android apps from your phone</p>
+<h1 align="center">GoPlaces</h1>
+<p align="center"><i>GoPlaces</i> to launch apps on your phone/emulator from the terminal</p>
 <p align="center">
   <a href="https://travis-ci.org/cesarferreira/goplaces"><img src="https://travis-ci.org/cesarferreira/goplaces.svg?branch=master" alt="Build Status"></a>
   <a href="https://www.npmjs.com/package/goplaces"><img src="https://img.shields.io/npm/dt/goplaces.svg" alt="npm"></a>
@@ -12,9 +12,6 @@
   <img src="extras/screenshot.png" width="100%" />
 </p>
 
-<p align="center">
-  <img src="extras/actions.png" width="100%" />
-</p>
 
 ## Install
 
@@ -29,14 +26,6 @@ Connect your android phone or emulator to your computer and run:
 Usage
    $ goplaces
 ```
-
-Choose between **Uninstall** and **Clear App Data**
-
-<p align="center">
-  <img src="extras/actions.png" width="100%" />
-</p>
-
-Happy purrging!
 
 ## Created by
 [Cesar Ferreira](https://cesarferreira.com)
